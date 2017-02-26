@@ -61,6 +61,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
+	padding-top: 40px;
 }
 
 .sidebar-nav li {
@@ -126,4 +127,19 @@
         position: relative;
         margin-right: 0;
     }
+}
+
+.navbar-pad {
+	padding: 15px;
+	
+}
+
+.navbar-main-fix {
+padding-top: 25px;		
+}
+
+@media screen and (min-width: 769px) {
+  .mobile-only {
+    visibility: hidden;
+  }
 }
