@@ -61,7 +61,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
-	padding-top: 40px;
+	padding-top: 50px;
 }
 
 .sidebar-nav li {
@@ -87,9 +87,7 @@
 }
 
 .sidebar-nav > .sidebar-brand {
-    height: 65px;
     font-size: 18px;
-    line-height: 60px;
 }
 
 .sidebar-nav > .sidebar-brand a {
@@ -135,11 +133,16 @@
 }
 
 .navbar-main-fix {
-padding-top: 25px;		
+padding-top: 12px;		
 }
 
 @media screen and (min-width: 769px) {
   .mobile-only {
     visibility: hidden;
   }
+}
+
+
+.6column {
+    width:16%; // 6 evenly sized columns
 }
