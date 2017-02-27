@@ -143,6 +143,6 @@ padding-top: 12px;
 }
 
 
-.6column {
-    width:16%; // 6 evenly sized columns
+tr.calendar-cells {
+   height: 80px;
 }
